@@ -170,6 +170,9 @@ footer img{
     body{
         width: 680px;
     }
+    .nav-bar{
+        width: 680px;
+    }
     .heading-banner{
        width: 100%;
        display: flex;
@@ -180,23 +183,28 @@ footer img{
         height: 138px;
         font-size: 36px;
         margin-top: 0px;
+        margin-left: 40px;
     }
     .watch-button{
+        margin-left: 40px;
         margin-bottom: 10px;
     }
     .banner img{
         width: 329px;
         height: 259px;
         margin-top: 0px;
+        margin-left: 10px;
     }
     .players{
+        margin-left: 10px;
         grid-template-columns: repeat(1, 1fr);
     }
     .highlight{
+        margin-left: 10px;
         display: flex;
         flex-direction: column;
     }.highlight-text{
-        font-size: 30px;
+        font-size: 36px;
         margin-top: 5px;
     }
     .highlight-banner img{
@@ -204,7 +212,7 @@ footer img{
         height: 248px;
     }
     footer{
-         
+        margin-left: 50px;
         display: flex;
         flex-direction: column;
         margin-top: 200px;
