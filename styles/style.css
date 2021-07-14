@@ -1,0 +1,216 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/*---------------------------
+         common style
+----------------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+
+/*---------------------------
+         heading style 
+---------------------------*/
+.nav-bar{
+    width: 1440px;
+    height: 677px;
+    background: #2D25A0;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    width: 1160px;
+    height: 44px;
+}
+.nav-list a{
+    text-decoration: none;
+    margin: 36px;
+    color: 
+    #FFFFFF;
+}
+.login-button{
+    width: 123px;
+    height: 44px;
+    background-color: 
+    #E02C6D;
+    color: #FFFFFF;
+}
+.heading-banner{
+    display: flex;
+}
+.banner-text{
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    margin-left: 156px;
+    margin-top: 121px;
+}
+.watch-button{
+    width: 168px;
+    height: 44px;
+    margin-top: 27px;
+    margin-left: 156px;
+    margin-bottom: 169px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+}
+.banner img{
+    width: 512px;
+    height: 403px;
+    margin: 67px 141px 86px 102px;
+    
+}
+.banner:hover img{
+    transform:scaleX(1.3);
+    transition: transform 1s ease-in-out;
+}
+/* -----------------------
+        Players style 
+-----------------------------*/
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 27px;
+    column-gap: 30px;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    width: 300px;
+    height: 40px;
+}
+p.player-info{
+    width: 300px;
+    height: 104px;
+}
+
+/*------------------------
+         Highlight Style
+----------------------------- */
+
+.highlight{
+    display: flex;
+    column-gap: 60px;
+    margin-left: 182px;
+    margin-right: 156px;
+}
+.highlight-info{
+    Width: 469px;
+    Height: 309px;
+    margin-top: 224px;
+}
+.highlight-text{
+    width: 469px;
+    height: 120px;
+    font-size: 48px;
+    color: #0A0826;
+}
+.highlight-detail{
+    width: 404px;
+    height: 113px;
+    font-size: 16px;  
+}
+.watch-now-button{
+    width: 173px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+}
+.fa-arrow-right{
+    margin: 0px 8px;
+}
+.highlight-banner img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+}
+
+/* -------------------------
+        footer style 
+------------------------------*/
+
+footer{
+    text-align: center;
+    justify-content: center;
+    margin: 158px 481px 63px 475px;
+}
+footer img{
+    width: 484px;
+    height: 110px;
+}
+.social-icon{
+    margin: 0px, 14px;
+   
+}
+
+/*-------------------------
+     Meadia Queries
+---------------------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px){
+    body{
+        width: 680px;
+    }
+    .heading-banner{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .banner-text{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        margin-top: 0px;
+    }
+    .watch-button{
+        margin-bottom: 10px;
+    }
+    .banner img{
+        width: 329px;
+        height: 259px;
+        margin-top: 0px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight{
+        display: flex;
+        flex-direction: column;
+    }.highlight-text{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .highlight-banner img{
+        width: 328px;
+        height: 248px;
+    }
+    footer{
+         
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    footer img{
+        width: 100px;
+    }
+    
+}
